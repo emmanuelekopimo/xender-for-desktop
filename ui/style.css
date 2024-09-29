@@ -1,0 +1,169 @@
+* {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+}
+
+html {
+  height: 98%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.226);
+  z-index: 1000;
+  visibility: hidden;
+  display: flex;
+}
+
+.modal.show {
+  visibility: visible;
+}
+
+.pop-up {
+  margin: auto;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+  width: 250px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-block: 4px;
+  color: rgb(71, 71, 71);
+}
+
+.top {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  margin-inline: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.section.title {
+  font-size: 22px;
+  display: inline;
+}
+
+.tagline {
+  font-size: 16px;
+  font-weight: 300;
+  margin-block: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.list-item {
+  font-size: 16px;
+  font-weight: 400;
+  margin-block: 0px;
+  color: rgb(56, 56, 56);
+}
+
+.title-line {
+  margin-block: 8px;
+}
+
+.tagline.right {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.list-item {
+  margin-block: 5px;
+}
+
+.content {
+  margin-bottom: 8px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 15px;
+}
+
+.card {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+}
+
+.icon {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.small-icon {
+  height: 16px;
+}
+.sec-right.body {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+.mock-up {
+  margin: auto;
+  margin-block: 30px;
+}
+
+.connect-button {
+  font-size: 18px;
+  color: rgb(233, 233, 233);
+  background: rgb(53, 53, 250);
+  width: 250px;
+  margin: auto;
+  border: 0px solid;
+  border-radius: 8px;
+  padding-block: 10px;
+}
+
+.connect-button:hover {
+  background-color: rgb(52, 37, 255);
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+.tip {
+  background-color: rgb(197, 197, 197);
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 5px;
+  height: min-content;
+  margin-top: 70px;
+  height: 85px;
+}
+
+.tiptext {
+  margin: 20px;
+}
+
+.modal-button {
+  font-size: 18px;
+  color: rgb(233, 233, 233);
+  background: rgb(63, 63, 63);
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  border: 0px solid;
+  border-radius: 8px;
+  padding-block: 10px;
+}
+
+.modal-button:hover {
+  background-color: rgb(54, 54, 54);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}

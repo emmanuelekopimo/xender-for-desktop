@@ -1,0 +1,53 @@
+html {
+  overflow: auto;
+}
+
+html,
+body,
+div,
+iframe {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none;
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.float-button {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  width: 75px;
+  height: 65px;
+  background: white;
+  border-color: white;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.float-button:hover {
+  box-shadow: 0px 0px 8px rgba(0, 97, 40, 0.623);
+  color: rgb(0, 141, 75);
+}
+
+.float-button.top {
+  bottom: 96px;
+}
+
+.float-button.top:hover {
+  box-shadow: 0px 0px 8px rgba(252, 0, 0, 0.438);
+  color: rgb(255, 0, 0);
+}
+
+.float-icon {
+  width: 45px;
+  margin: auto;
+}
