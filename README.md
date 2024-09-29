@@ -1,17 +1,21 @@
-# neutralinojs-minimal
+# xender-for-desktop
 
-The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/how-to/use-a-frontend-library).
+Desktop app to connect to the Xender app on Android for file transfer.
 
-## Contributors
+## Implementation
 
-<a href="https://github.com/neutralinojs/neutralinojs-minimal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=neutralinojs/neutralinojs-minimal" />
-</a>
+The app is made with NeutralinoJS and it uses a python script(binary) to 
+get the address ofthe Android Xender client then connect. 
+It displays it's content in a webview with a reload 
+and disconnect button above for control
 
-## License
+## Screenshots
 
-[MIT](LICENSE)
+![Screenshot 2024-09-29 231338](https://github.com/user-attachments/assets/c4ef53bb-5117-4c62-8b87-b16bccc2dd98)
 
-## Icon credits
+![Screenshot 2024-09-29 231818](https://github.com/user-attachments/assets/5fa58379-e995-4212-b09e-ab68d675d2c0)
 
-- `trayIcon.png` - Made by [Freepik](https://www.freepik.com) and downloaded from [Flaticon](https://www.flaticon.com)
+![Screenshot 2024-09-29 231941](https://github.com/user-attachments/assets/6518b29b-caec-49e4-bdbe-22d02b8fddfc)
+
+
+
