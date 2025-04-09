@@ -5,9 +5,9 @@ Desktop app to connect to the Xender app on Android for file transfer.
 ## Implementation
 
 The app is made with NeutralinoJS and it uses a python script(binary) to 
-get the address ofthe Android Xender client then connect. 
+get the address of the Android Xender client then connect. 
 It displays it's content in a webview with a reload 
-and disconnect button above for control
+and disconnect button overlay for maximum control
 
 ## Screenshots
 
